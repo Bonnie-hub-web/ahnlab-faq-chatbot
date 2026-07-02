@@ -146,7 +146,7 @@ module.exports = async (req, res) => {
         if (match) {
             return res.status(200).json({
                 success: true,
-                answer: match.answer,
+                answer: match.answer.replace(/\n/g, '<br>'),
                 category: match.category
             });
         } else {
