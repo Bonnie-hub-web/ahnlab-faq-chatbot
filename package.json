@@ -1,0 +1,14 @@
+{
+  "name": "ahnlab-faq-chatbot",
+  "version": "1.0.0",
+  "description": "안랩 내부 FAQ 챗봇",
+  "main": "api/chat.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'No build needed'"
+  },
+  "dependencies": {
+    "googleapis": "^118.0.0",
+    "cors": "^2.8.5"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "buildCommand": "npm install",
+  "outputDirectory": "public",
+  "env": {
+    "GOOGLE_SHEET_ID": "1Ml3iw6Hmi07HLYR87inmmQZUaw4FWwfh0MRG-Yu2xXw",
+    "AUTH_KEY": "SPoneteam"
+  }
+}
